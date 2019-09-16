@@ -1,0 +1,8 @@
+noPrepStmt:
+1. Since 10101 is in the table, it is updating the value appropriately
+2. It is considering the string such that it has case OR 1=1 which is always true hence changes salary of all instructor
+3. It has no such entry in table hence doesn't change salary and drops the table instructordup
+withPrepStmt:
+1. Since 10101 is in the table, it is updating the value appropriately
+2. Since there is no such entry in instructor, it doesn't change salary of any instructor
+3. Since there is no such entry in instructor, it doesn't change salary of any instructor
